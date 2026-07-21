@@ -7,6 +7,7 @@ import Footer from "@/components/footer/Footer";
 import Hero from "@/components/hero/Hero";
 import { META_DATA } from "@/utils/constant";
 import GoogleAnalytics from "@/components/google/GoogleAnalytics";
+import { Analytics } from "@vercel/analytics/next";
 
 const APP_TITLE = `${META_DATA.appName} – Sushi & Japansk Mat i Helsingborg`;
 
@@ -120,6 +121,7 @@ export default function RootLayout({
           </main>
         </ParallaxScrollProvider>
         <GoogleAnalytics />
+        <Analytics />
       </body>
     </html>
   );
