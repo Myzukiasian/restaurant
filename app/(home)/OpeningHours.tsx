@@ -14,7 +14,7 @@ export default function OpeningHours() {
         </h2>
 
         <div className="space-y-3 text-lg lg:text-2xl font-bold">
-          <p>Måndag – Torsdag 11.30 – 21</p>
+          <p>Måndag – Fredag 11.30 – 21</p>
           <p>Lördag - Söndag 12 – 21</p>
         </div>
 
