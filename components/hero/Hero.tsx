@@ -75,6 +75,22 @@ export default function Hero({}: Props) {
                 />
               </span>
             </Link>
+            <Link
+              className="header-button group"
+              href={"https://yabie.online/myzukirestaurang/sv"}
+            >
+              <span className="transition-transform duration-300 group-hover:-translate-x-3">
+                Beställa online
+              </span>
+              <span className="absolute right-10 opacity-0 -translate-x-8 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0">
+                <Image
+                  alt="arrow-right"
+                  src={"icons/chevron-right.svg"}
+                  width={24}
+                  height={24}
+                />
+              </span>
+            </Link>
           </div>
         </div>
       </div>
