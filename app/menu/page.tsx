@@ -2,7 +2,7 @@ export const revalidate = 3600;
 import type { Metadata } from "next";
 import MenuList from "@/components/menu/MenuList";
 import { META_DATA } from "@/utils/constant";
-
+import menu from "@/app/data/menu.json";
 export const metadata: Metadata = {
   title: "Sushi Meny Helsingborg | Japansk & Vietnamesisk Mat",
   description:
@@ -25,43 +25,43 @@ export const metadata: Metadata = {
   },
 };
 
-async function fetchMenu() {
-  const res = await fetch(
-    "https://api.github.com/repos/hoangdinh2411/sushi-restaurant/releases/tags/v1.0.0",
-    {
-      redirect: "follow",
-      headers: {
-        Accept: "application/vnd.github+json",
-      },
-      next: { revalidate: 3600 },
-    },
-  );
-  if (!res.ok) {
-    throw new Error(`GitHub API error: ${res.status}`);
-  }
-  const release = await res.json();
-  if (!Array.isArray(release.assets)) {
-    throw new Error("No assets in release");
-  }
-  const menuAsset = release.assets?.find(
-    (asset: { name: string }) => asset.name === "menu.json",
-  );
-  if (!menuAsset) {
-    throw new Error("menu.json not found in release assets");
-  }
-  const menuRes = await fetch(menuAsset.browser_download_url, {
-    redirect: "follow",
-    next: { revalidate: 3600 },
-  });
+// async function fetchMenu() {
+//   const res = await fetch(
+//     "https://api.github.com/repos/hoangdinh2411/sushi-restaurant/releases/tags/v1.0.0",
+//     {
+//       redirect: "follow",
+//       headers: {
+//         Accept: "application/vnd.github+json",
+//       },
+//       next: { revalidate: 3600 },
+//     },
+//   );
+//   if (!res.ok) {
+//     throw new Error(`GitHub API error: ${res.status}`);
+//   }
+//   const release = await res.json();
+//   if (!Array.isArray(release.assets)) {
+//     throw new Error("No assets in release");
+//   }
+//   const menuAsset = release.assets?.find(
+//     (asset: { name: string }) => asset.name === "menu.json",
+//   );
+//   if (!menuAsset) {
+//     throw new Error("menu.json not found in release assets");
+//   }
+//   const menuRes = await fetch(menuAsset.browser_download_url, {
+//     redirect: "follow",
+//     next: { revalidate: 3600 },
+//   });
 
-  if (!menuRes.ok) {
-    throw new Error(`Asset download failed: ${menuRes.status}`);
-  }
-  const menuData = await menuRes.json();
-  return menuData;
-}
+//   if (!menuRes.ok) {
+//     throw new Error(`Asset download failed: ${menuRes.status}`);
+//   }
+//   const menuData = await menuRes.json();
+//   return menuData;
+// }
 export default async function MenuPage() {
-  const dataJson = await fetchMenu();
+  const dataJson = menu.menu;
   return (
     <>
       <script
@@ -95,7 +95,7 @@ export default async function MenuPage() {
           </h1>
           <p className="text-primary/60 text-sm">{META_DATA.address}</p>
         </div>
-        <MenuList groups={dataJson.menu} />
+        <MenuList groups={dataJson} />
       </article>
     </>
   );

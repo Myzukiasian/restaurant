@@ -1,0 +1,561 @@
+{
+  "restaurant": "Myzuki",
+  "address": "Elinebergsplatsen 5, Helsingborg",
+  "website": "www.myzuki.se",
+  "opening_hours": {
+    "monday_friday": "11:30-21",
+    "saturday_sunday": "12-21"
+  },
+  "lunch_menu": {
+    "price": 139,
+    "time": "11:30-14:00",
+    "includes": "Miso soppa, kaffe, te",
+    "options": [
+      "Japanska Bowl",
+      "Stekta nudlar / Ris med Chicken Katsu eller Yakiniku"
+    ],
+    "daily_sushi_roll": {
+      "Måndag": "Ebi Tempura eller Sake Roll",
+      "Tisdag": "Super Crunch eller Green Roll",
+      "Onsdag": "Myzuki Special eller Sake Roll",
+      "Torsdag": "Grilla Maki med lax eller California",
+      "Fredag": "Cream Cheese Roll eller Green Roll"
+    }
+  },
+  "menu": [
+    {
+      "group": "JAPAS",
+      "description": null,
+      "items": [
+        {
+          "name": "Edamame Seasalt",
+          "price": 60,
+          "description": "Ångkokta bönor, citron, havsalt"
+        },
+        {
+          "name": "Edamame Spicy",
+          "price": 70,
+          "description": "Ångkokta bönor, citron, chilicream"
+        },
+        {
+          "name": "Edamame Teriyaki",
+          "price": 65,
+          "description": "Ångkokta bönor, citron, teriyakisås"
+        },
+        {
+          "name": "Miso Soppa",
+          "price": 39,
+          "description": "Välja mellan: tofu, räkor +10 kr och lax +10 kr. Sojabönpasta, sjögräs, vårlök, buljong"
+        },
+        {
+          "name": "Goma Wakame",
+          "price": 49,
+          "description": "Tångsallad, sesamfrö"
+        },
+        {
+          "name": "Sweet Potatoes",
+          "price": 59,
+          "description": "Havsalt flingor och chilimayo"
+        },
+        {
+          "name": "Crispy Fries",
+          "price": 49,
+          "description": "Salt och chilimayo"
+        },
+        {
+          "name": "Springroll Vegetarisk 5 pcs",
+          "price": 49,
+          "description": "Krispig mini vårrulla med vegetarisk fyllning, serveras med sweetchilisås"
+        },
+        {
+          "name": "Springroll Hemgjorda 2 pcs",
+          "price": 49,
+          "description": "Frasiga köttvårrula med glasnudlar, svamp, ägg, serveras med sweetchilisås"
+        },
+        {
+          "name": "Ebi Panko 4 pcs",
+          "price": 99,
+          "description": "Fritera räkor, chilimayo, teriyaki"
+        },
+        {
+          "name": "Fried Chicken",
+          "price": 89,
+          "description": "Krispig kyckling med sås"
+        },
+        {
+          "name": "Fried Chicken Wings 5pcs",
+          "price": 69,
+          "description": "Krispig kyckling vingar med sweet chili sås"
+        },
+        {
+          "name": "Bao Bun 2pcs",
+          "price": 109,
+          "description": "Välja mellan: kyckling, beef, och räkor. Ångat bröd, picklad rödlök, sallad, chili mayo"
+        },
+        {
+          "name": "Dumpling",
+          "price": 109,
+          "description": "Välja mellan: kyckling, vegetarisk. Stekt dumpling med ponzusås"
+        }
+      ]
+    },
+    {
+      "group": "SUSHI ROLLS",
+      "description": null,
+      "items": [
+        {
+          "name": "California",
+          "price": 149,
+          "description": "Krabbröra, avokado, gurka, teriyaki, chilimayo"
+        },
+        {
+          "name": "Veggie Roll",
+          "price": 149,
+          "description": "Tofu, avokado, gurka, vegan chilimayo, vegan teriyaki"
+        },
+        {
+          "name": "Green Roll",
+          "price": 149,
+          "description": "Avokado, gurka, cream cheese, toppad med avokado, limeaioli"
+        },
+        {
+          "name": "Sake Roll",
+          "price": 149,
+          "description": "Lax, avokado, gurka, limeaioli, masago"
+        },
+        {
+          "name": "Myzuki Special",
+          "price": 159,
+          "description": "Fritera räka, avokado, cream cheese, toppad med flamberad lax, teriyaki och chilimayo"
+        },
+        {
+          "name": "Ebi Tempura",
+          "price": 159,
+          "description": "Fritera räka, gurka, cream cheese, avokado, chilimayo, teriyaki"
+        },
+        {
+          "name": "Cream Cheese Roll",
+          "price": 159,
+          "description": "Gurka, avokado, cream cheese, lax, limeaioli, masago"
+        },
+        {
+          "name": "Volcano",
+          "price": 159,
+          "description": "Gurka, avokado, cream cheese, spicy laxtartar, masago, chilimayo och teriyaki"
+        },
+        {
+          "name": "Ebi Deluxe",
+          "price": 169,
+          "description": "Fritera räka, avokado, gurka, cream cheese, räka, aioli, teriyaki"
+        },
+        {
+          "name": "Deep Fry Roll",
+          "price": 169,
+          "description": "Välja mellan: salmon, chicken, beef, crab och ebi panko (räkor). Avokado, cream cheese, chilimayo, teriyaki"
+        },
+        {
+          "name": "Chicken Crunch",
+          "price": 189,
+          "description": "Krabbröra, gurka, avokado, topping med chicken pops, teriyaki och chilimayo"
+        }
+      ]
+    },
+    {
+      "group": "NIGIRI",
+      "description": "2 pcs: 50 kr / 10 pcs: 159 kr / 16 pcs: 239 kr",
+      "items": [
+        {
+          "name": "Halstrad Lax / Lax",
+          "price": null,
+          "description": "Välja mellan lax eller halstrad lax"
+        },
+        {
+          "name": "Halstrad Tonfisk / Tonfisk",
+          "price": null,
+          "description": "Välja mellan tonfisk eller halstrad tonfisk"
+        },
+        {
+          "name": "Halstrad Shrimp / Shrimp",
+          "price": null,
+          "description": "Välja mellan räka eller halstrad räka"
+        },
+        {
+          "name": "Chefs Val",
+          "price": null,
+          "description": "Kockens val"
+        },
+        {
+          "name": "Vegetarisk Tofu",
+          "price": null,
+          "description": "Vegetarisk nigiri med tofu"
+        },
+        {
+          "name": "Deluxe (lax, räka)",
+          "price": null,
+          "description": "Nigiri med lax och räka"
+        },
+        {
+          "name": "Classic (lax, avokado)",
+          "price": null,
+          "description": "Nigiri med lax och avokado"
+        }
+      ]
+    },
+    {
+      "group": "YAKIMONO",
+      "description": null,
+      "items": [
+        {
+          "name": "Yakiniku",
+          "price": 169,
+          "description": "Marinerad beef, sallad, ris, teriyakisås, chilimayo"
+        },
+        {
+          "name": "Chicken Katsu",
+          "price": 169,
+          "description": "Krispy kyckling filé, ris, sallad, sås"
+        },
+        {
+          "name": "Laxfjällril",
+          "price": 169,
+          "description": "Stekte lax, ris, sallad, teriyaki sås, aioli"
+        },
+        {
+          "name": "Udon Nudlar",
+          "price": 169,
+          "description": "Välja mellan: chicken katsu och krispigt anka. Udon nudlar, grönsaker"
+        },
+        {
+          "name": "Crispy Duck",
+          "price": 189,
+          "description": "Krispy anka, ris eller stekt nudlar, sallad med peking sås"
+        },
+        {
+          "name": "Risnudlar med Vårulla",
+          "price": 149,
+          "description": "Välj mellan vegetarisk eller chicken. Ris vermicelli, skogöron (svamp), sallad, örter, fisksås. Gambas: innehåller gluten"
+        }
+      ]
+    },
+    {
+      "group": "JAPANSKA BOWL",
+      "description": "Alla bowls serveras med: sushiris, wakame, edamamebönor, avokado, picklad gurka, picklad rödlök, mango, maj, sallad, rödkål, sås",
+      "items": [
+        {
+          "name": "Salmon Bowl",
+          "price": 159,
+          "description": null
+        },
+        {
+          "name": "Tuna",
+          "price": 159,
+          "description": null
+        },
+        {
+          "name": "Crispy Chicken",
+          "price": 159,
+          "description": null
+        },
+        {
+          "name": "Crispy Ebi",
+          "price": 159,
+          "description": null
+        },
+        {
+          "name": "Spicy Yakiniku",
+          "price": 159,
+          "description": null
+        },
+        {
+          "name": "Crispy Halloumi",
+          "price": 149,
+          "description": null
+        },
+        {
+          "name": "Fritera Tofu",
+          "price": 149,
+          "description": "Välja mellan: vanlig tofu eller japanska tofu"
+        }
+      ]
+    },
+    {
+      "group": "SASHIMI",
+      "description": "15 pcs",
+      "items": [
+        {
+          "name": "Sashimi Lax",
+          "price": 199,
+          "description": "Serveras med sushiris, avokado, grönsaker och tillbehör"
+        },
+        {
+          "name": "Mix Sashimi",
+          "price": 209,
+          "description": "Serveras med sushiris, avokado, grönsaker, tillbehör, lax, tonfisk och räka"
+        }
+      ]
+    },
+    {
+      "group": "MYZUKI SET",
+      "description": null,
+      "items": [
+        {
+          "name": "Mimi 8 pcs",
+          "price": 119,
+          "description": "4 pcs california maki. Nigiri: 2 lax, 1 räka, 1 tonfisk"
+        },
+        {
+          "name": "Kawasaki 12 pcs",
+          "price": 149,
+          "description": "8 pcs sake maki. Nigiri: 2 lax, 1 räka, 1 tonfisk"
+        },
+        {
+          "name": "Sakura 20 pcs",
+          "price": 289,
+          "description": "8 pcs sake roll, 4 pcs california. Nigiri: 3 lax, 2 räkor, 2 tonfisk, 1 avokado"
+        },
+        {
+          "name": "Nagoya 30 pcs",
+          "price": 389,
+          "description": "8 pcs hemgjorde ebi roll, 8 pcs sake roll, 4 pcs california. Nigiri: 4 lax, 2 räkor, 2 tonfisk, 2 avokado"
+        },
+        {
+          "name": "Party 50 pcs",
+          "price": 669,
+          "description": "8 pcs hemgjorde ebi roll, 8 pcs sake roll, 8 pcs california, 8 pcs green roll. Nigiri: 6 lax, 6 räkor, 3 tonfisk, 3 avokado"
+        }
+      ]
+    },
+    {
+      "group": "MYZUKI DELUXE",
+      "description": null,
+      "items": [
+        {
+          "name": "Kochi 16 pcs",
+          "price": 279,
+          "description": "8 pcs ebi tempura. Nigiri: 2 halstrad lax, 2 halstrad räkor, 2 avokado, 2 tonfisk"
+        },
+        {
+          "name": "Osaka 24 pcs",
+          "price": 379,
+          "description": "8 pcs myzuki special, 4 pcs chicken crunch. Nigiri: 3 halstrad lax, 3 lax, 2 halstrad tonfisk, 2 räkor, 2 avokado"
+        },
+        {
+          "name": "Tokyo 40 pcs",
+          "price": 599,
+          "description": "8 pcs volcano, 8 pcs cream cheese roll, 8 pcs ebi tempura. Nigiri: 4 lax, 3 halstrad lax, 3 tonfisk, 3 halstrad räkor, 3 avokado"
+        }
+      ]
+    },
+    {
+      "group": "KIDS MENY",
+      "description": "Inkl. mer dryck 89 kr",
+      "items": [
+        {
+          "name": "Bento",
+          "price": 89,
+          "description": "2 valfri nigiri, 2 yakitori, ris"
+        },
+        {
+          "name": "Mini Fried Chicken",
+          "price": 89,
+          "description": "2 kyckling vingar, chicken pops, ris"
+        }
+      ]
+    },
+    {
+      "group": "SIDEDISH",
+      "description": null,
+      "items": [
+        {
+          "name": "Ris / Sushiris",
+          "price": 20,
+          "description": null
+        },
+        {
+          "name": "Räkchips",
+          "price": 20,
+          "description": null
+        },
+        {
+          "name": "Teriyaki Sås",
+          "price": 15,
+          "description": null
+        },
+        {
+          "name": "Chili Mayo",
+          "price": 15,
+          "description": null
+        },
+        {
+          "name": "Tryffel Mayo",
+          "price": 15,
+          "description": null
+        },
+        {
+          "name": "Lime Aioli",
+          "price": 15,
+          "description": null
+        },
+        {
+          "name": "Ponzu Sås",
+          "price": 15,
+          "description": null
+        },
+        {
+          "name": "Sweet Chili",
+          "price": 15,
+          "description": null
+        },
+        {
+          "name": "Vegan Chilimayo",
+          "price": 15,
+          "description": null
+        }
+      ]
+    },
+    {
+      "group": "TO END WITH",
+      "description": null,
+      "items": [
+        {
+          "name": "Mochi Glass",
+          "price": 80,
+          "description": "Mochi glass i olika smakerna"
+        },
+        {
+          "name": "Vanilj Glass med Choklad Sås",
+          "price": 69,
+          "description": null
+        }
+      ]
+    },
+    {
+      "group": "ALKOHOLFRI",
+      "description": null,
+      "items": [
+        { "name": "Coca Cola", "price": 25, "description": null },
+        { "name": "Coca Cola Zero", "price": 25, "description": null },
+        { "name": "Fanta", "price": 25, "description": null },
+        { "name": "Fanta Exotic", "price": 25, "description": null },
+        { "name": "Sprite", "price": 25, "description": null },
+        { "name": "Ramlösa", "price": 25, "description": null },
+        { "name": "Ramlösa Citron", "price": 25, "description": null },
+        { "name": "Redbull", "price": 25, "description": null },
+        { "name": "Mer", "price": 15, "description": null },
+        { "name": "Juice", "price": 25, "description": null }
+      ]
+    },
+    {
+      "group": "NON ALKOHOL",
+      "description": null,
+      "items": [
+        {
+          "name": "Heineken",
+          "price": 49,
+          "description": "0,0% holland, Amsterdam-lager"
+        },
+        {
+          "name": "Mariastaden",
+          "price": 49,
+          "description": "0,0% sverige lager"
+        },
+        { "name": "IPA", "price": 49, "description": "0,0% indian" },
+        {
+          "name": "Briska Cider",
+          "price": 49,
+          "description": "0,0% sverige lager"
+        }
+      ]
+    },
+
+    {
+      "group": "ÖL / CIDER",
+      "description": null,
+      "items": [
+        { "name": "Heineken", "price": 79, "description": "Holland lager" },
+        { "name": "Mariastad", "price": 79, "description": "Sverige lager" },
+        { "name": "Saigon", "price": 79, "description": "Vietnam lager" },
+        { "name": "IPA", "price": 79, "description": "India lager" },
+        { "name": "Kirin Ichiban", "price": 79, "description": "Japan lager" },
+        { "name": "Briska Cider", "price": 69, "description": "Sverige lager" }
+      ]
+    },
+    {
+      "group": "SPRITZER",
+      "description": null,
+      "items": [
+        {
+          "name": "Elderflower Spritz",
+          "price": 129,
+          "description": "Fläderlikör & prosecco"
+        },
+        {
+          "name": "Aperol Spritz",
+          "price": 129,
+          "description": "Aperol & prosecco"
+        }
+      ]
+    },
+    {
+      "group": "RÖD VIN",
+      "description": null,
+      "items": [
+        {
+          "name": "Patriale Rosso Glas",
+          "price": 90,
+          "description": "Piccini, Italien, Primitivo, Nero D'avola"
+        },
+        {
+          "name": "Artuke - Glas",
+          "price": 90,
+          "description": "Bodegas Artuke, Rioja, Spanien, Tempranillo, Viura"
+        },
+        {
+          "name": "Artuke - Flaska",
+          "price": 389,
+          "description": "Bodegas Artuke, Rioja, Spanien, Tempranillo, Viura"
+        },
+        {
+          "name": "Domaine Faiveley Pinot Noir",
+          "price": 409,
+          "description": "Domaine Faiveley, Bourgogne, Pinot Noir"
+        }
+      ]
+    },
+    {
+      "group": "VITT VIN",
+      "description": null,
+      "items": [
+        {
+          "name": "Murviedro Coleccion Verdejo Glas",
+          "price": 90,
+          "description": "Grape verdejo, Spain, Kastilien León"
+        },
+        {
+          "name": "Murviedro Coleccion Verdejo Flaska",
+          "price": 389,
+          "description": "Grape verdejo, Spain, Kastilien León"
+        },
+        {
+          "name": "Primizia Bianco - Glas",
+          "price": 90,
+          "description": "Grape Pinot Grigio, Italia"
+        },
+        {
+          "name": "Primizia Bianco - Flaska",
+          "price": 395,
+          "description": "Grape Pinot Grigio, Italia"
+        }
+      ]
+    },
+    {
+      "group": "WHISKY / SHOT",
+      "description": "4 cl",
+      "items": [
+        { "name": "Famous Grouse - 40%", "price": 95, "description": null },
+        { "name": "Vodka", "price": 80, "description": null },
+        { "name": "Jägermeister", "price": 80, "description": null }
+      ]
+    }
+  ]
+}

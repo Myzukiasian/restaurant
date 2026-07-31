@@ -30,7 +30,7 @@ function groupHasLongDescriptions(items: MenuItem[]): boolean {
 export default function MenuList({ groups }: { groups: MenuGroup[] }) {
   return (
     <div className="space-y-20">
-      <div className="flex justify-between gap-6 lg:gap-8 flex-wrap w-full max-w-4xl mx-auto ">
+      <div className="flex justify-start gap-6 lg:gap-8 flex-wrap w-full max-w-4xl mx-auto ">
         {groups &&
           groups?.map((group) => (
             <Link
