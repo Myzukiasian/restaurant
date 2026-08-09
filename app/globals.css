@@ -13,7 +13,7 @@
 
 @layer components {
   .header-button {
-    @apply text-lg border-2 border-solid border-primary text-primary flex justify-center items-center px-12 py-4 min-w-55 relative overflow-hidden cursor-pointer;
+    @apply text-lg border-2 border-solid border-primary text-primary flex justify-center items-center px-12 py-4 min-w-52 relative  cursor-pointer;
   }
 }
 
