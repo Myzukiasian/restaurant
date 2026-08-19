@@ -66,6 +66,26 @@ export default function OrderOnline({}: Props) {
               <span>Foodora</span>
               <span className="text-xs text-gray-400">↗</span>
             </Link>
+            <Link
+              href="https://wolt.com/en/swe/helsingborg/restaurant/myzuki?no_universal_links=true"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={handleClose}
+              className="flex items-center justify-between px-4 py-3 text-base font-medium text-gray-800 transition-colors hover:bg-gray-200"
+            >
+              <span>Wolt</span>
+              <span className="text-xs text-gray-400">↗</span>
+            </Link>
+            <Link
+              href="https://www.ubereats.com/se/store/myzuki/VPfiWA01XCKG0oHAZYFyJg?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMkVsaW5lYmVyZ3NwbGF0c2VuJTIyJTJDJTIycmVmZXJlbmNlJTIyJTNBJTIyRWlaRmJHbHVaV0psY21kemNHeGhkSE5sYml3Z1NHVnNjMmx1WjJKdmNtY3NJRk4zWldSbGJpSXVLaXdLRkFvU0NTX0pBTDBITTFKR0VSRDRIQ3ZoQ3ZTWkVoUUtFZ25EN2N3dGZpMVNSaEZfZlV1cHdUS1VHZyUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJnb29nbGVfcGxhY2VzJTIyJTJDJTIybGF0aXR1ZGUlMjIlM0E1Ni4wMjk3NzkxJTJDJTIybG9uZ2l0dWRlJTIyJTNBMTIuNzI1MDQxMyU3RA%3D%3D&surfaceName="
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={handleClose}
+              className="flex items-center justify-between px-4 py-3 text-base font-medium text-gray-800 transition-colors hover:bg-gray-200"
+            >
+              <span>Uber Eats</span>
+              <span className="text-xs text-gray-400">↗</span>
+            </Link>
           </div>
         </>
       )}
