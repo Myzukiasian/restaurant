@@ -22,14 +22,17 @@ export const metadata: Metadata = {
 
 const OPENING_HOURS = {
   dineIn: [
-    { days: "Måndag – Fredag", hours: "11.30 – 21" },
+    { days: "Måndag", hours: "Stängt" },
+    { days: "Tisdag – Fredag", hours: "11.30 – 21" },
     { days: "Lördag – Söndag", hours: "12 – 21" },
   ],
   takeAway: [
-    { days: "Måndag – Fredag", hours: "11.30 – 21" },
+    { days: "Måndag", hours: "Stängt" },
+    { days: "Tisdag – Fredag", hours: "11.30 – 21" },
     { days: "Lördag – Söndag", hours: "12 – 21" },
   ],
 };
+
 
 const SOCIAL = [
   {
