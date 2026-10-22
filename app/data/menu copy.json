@@ -386,11 +386,11 @@
           "price": 15,
           "description": null
         },
-        {
-          "name": "Tryffel Mayo",
-          "price": 15,
-          "description": null
-        },
+        //{
+        // "name": "Tryffel Mayo",
+        //  "price": 15,
+        //  "description": null
+        //},
         {
           "name": "Lime Aioli",
           "price": 15,
